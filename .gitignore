@@ -1,0 +1,19 @@
+# 产出与临时物（不要提交个人材料）
+投递/
+导出/
+.backups/
+*.pdf
+*.docx
+*.html
+!cv-master/**/*.html
+
+# 母版本体（含个人信息，绝不提交）
+母版.md
+个人叙事/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
